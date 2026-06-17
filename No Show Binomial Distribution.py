@@ -5,8 +5,8 @@ import scipy
 import matplotlib.pyplot as plt
 from scipy.stats import binom
 
-n = 18
-p = 0.263
+n = 18 #n = number of appointments
+p = 0.263 # p = no-show probablility
 r_values = list(range(n+1))
 mean, var = binom.stats(n,p)
 dist = [binom.pmf(r, n, p) for r in r_values]
@@ -18,8 +18,7 @@ for i in range(n +1):
 print("mean = "+str(mean))
 print("variance = "+str(var))
 
-
-# In[2]:
+#The above will output the mostly likely number of no-shows based on the probability and total booked appointments (n & p respectively)
 
 
 n = 18
@@ -34,3 +33,4 @@ plt.xlabel("Number of No Shows")
 plt.ylabel("Percent Chance")
 plt.show()
 
+#This section will output the same information, but will display it graphically using the matplotlib package
