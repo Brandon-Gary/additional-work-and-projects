@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 #BINOMIAL DISTRIBUTION - NO SHOW PROBABILITY
 
 import numpy as np
@@ -39,10 +33,4 @@ plt.bar(r_values, dist)
 plt.xlabel("Number of No Shows")
 plt.ylabel("Percent Chance")
 plt.show()
-
-
-# In[ ]:
-
-
-
 
