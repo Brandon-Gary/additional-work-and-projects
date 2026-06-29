@@ -17,3 +17,6 @@ The Additional SQL folder contains standalone SQL queries that have been used to
 `age_grouping.sql` - This query references data on program attendees. The query assigns each record (unique person) to an age grouping and then provides a count of those groupings.
 
 `Elevated_Cholesterol.sql`, `Elevated_A1C.sql`, & `Elevated_BP.sql` - These queries all reference result data on cholesterol, hemoglobin A1C, and blood pressure testing. They each individual produce a number indicating the number of test results that were elevated for each respective test.
+
+### Narcan & Overdose Map
+Our department received a dataset from the local dispatchers office that listed the address of all overdose, suicide, and Code M calls that were responded to in the past 2-3 years. Our leadership team wanted a way to easily visualize and filter this data as needed for future presentations. Mapping each individual datapoint using Power BI was decided to be the best method to accomplish both of these goals. Light data transformations were needed including merging address parts into one column. The map was shared with leadership using a unique URL after publishing. The `Narcan & Overdose Map` folder contains three screenshots of the final product. One is completely unfiltered, and the two other images show the map after varying filters are applied.
